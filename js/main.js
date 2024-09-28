@@ -1,4 +1,5 @@
 /****************** CONSOLE ********************/
+// console: để kiểm tra và debug giá trị trong lúc code
 console.log("hello");
 
 console.warn("this is message warning");
@@ -13,6 +14,7 @@ console.error("đây là console.error");
 // cập nhật/gán giá trị cho biến
 // let tenBien;
 // tenBien = giaTri
+// var: variable => var tenBien = value;
 let user1;
 user1 = "abc";
 console.log("user1: ", user1);
@@ -36,6 +38,7 @@ console.log("PI: ", PI);
 const HANG_SO = 2;
 
 /****************** quy tắc đặt tên biến- camelCase ********************/
+// không bắt đầu bằng kí tự đặc biệt, số, phải có ý nghĩa
 let userName;
 let luongCoBan;
 
